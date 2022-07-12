@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!--Metadata-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!--CSS Files-->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--Google Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+
+</head>
+<body>
+  <header class="main">
+    <nav class="navbar">
+      <a href="#" class="logo"><img src="images/logo.svg" alt="logo"></a>
+      <i class="material-icons" id="showMenu" onclick="showMenu()">segment</i>
+      <ul id="menu">
+        <i class="material-icons" id="hideMenu">close</i>
+        <!--Left Links-->
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+
+        <!--Right Links-->
+        <li class="right"><a href="#" class="btn-border">Register</a></li>
+        <li class="right"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <section class="container">
+      <div class="text">
+        <h1>Make <br> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="btn-background">Learn more</button>
+
+        <div class="clients">
+          <div class="client">
+            <img src="images/client-databiz.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="images/client-audiophile.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="images/client-meet.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="main-img"></div>
+    </section>
+  </header>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
